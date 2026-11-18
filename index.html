@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WishCraft Studio | Birthday Surprise</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <p class="tag">A SPECIAL DAY • A SPECIAL PERSON</p>
+    <h1>Happy Birthday, <span id="personName">Someone Special</span>! 🎂</h1>
+    <p class="subtitle">Today is all about you. May your day be filled with love and happiness.</p>
+
+    <button id="musicBtn" class="music-btn">▶ Play Music</button>
+  </header>
+
+  <!-- Birthday Message -->
+  <section class="message-section">
+    <h2>A Little Birthday Wish 💌</h2>
+    <p>
+      You make the world a more beautiful place.
+      May your life always be filled with smiles,
+      beautiful memories and endless happiness.
+      Keep shining and keep smiling!
+    </p>
+    <p class="signature">With lots of love 💗</p>
+  </section>
+
+  <!-- Photo Gallery -->
+  <section class="gallery-section">
+    <h2>Beautiful Memories 📸</h2>
+    <p class="section-subtitle">Every picture tells a story.</p>
+
+    <div class="gallery">
+      <img src="images/photo1.jpg" alt="Birthday memory 1">
+      <img src="images/photo2.jpg" alt="Birthday memory 2">
+      <img src="images/photo3.jpg" alt="Birthday memory 3">
+    </div>
+  </section>
+
+  <!-- Surprise Section -->
+  <section class="surprise-section">
+    <h2>A Little Surprise For You 🎁</h2>
+    <p>There is something special waiting for you!</p>
+
+    <button id="surpriseBtn" class="surprise-btn">
+      Open Your Surprise 💝
+    </button>
+
+    <div id="surpriseMessage" class="surprise-message hidden">
+      <h2>You Are Truly Special! 💖</h2>
+      <p>
+        May all your dreams come true.
+        Never stop smiling. You deserve all the happiness in the world!
+      </p>
+      <div class="big-heart">💗</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made with 💗 by WishCraft Studio</p>
+  </footer>
+
+  <!-- Music File -->
+  <audio id="birthdayMusic" loop>
+    <source src="music/birthday.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
